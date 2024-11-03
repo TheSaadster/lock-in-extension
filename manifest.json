@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Lock In",
+    "version": "1.0",
+    "description": "Blocks selected websites during specified hours to help Lock In.",
+    "permissions": ["storage", "tabs", "scripting"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "options_page": "options.html",
+    "action": {
+      "default_popup": "options.html"
+    }
+  }
+  
