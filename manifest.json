@@ -17,8 +17,15 @@
     "action": {
         "default_popup": "options.html"
     },
+    "icons": {
+        "48": "icon.png",
+        "128": "icon.png"
+    },
     "web_accessible_resources": [{
         "resources": ["block.html"],
         "matches": ["<all_urls>"]
-    }]
+    }],
+    "host_permissions": [
+        "<all_urls>"
+    ]
 }

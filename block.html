@@ -12,19 +12,44 @@
             height: 100vh;
             margin: 0;
             background-color: #f5f5f5;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 600px;
         }
         
         .message {
             font-size: 48px;
             font-weight: bold;
-            color: #333;
             margin-bottom: 20px;
             animation: bounce 1s infinite;
         }
         
-        .sub-message {
+        .timer {
+            font-size: 36px;
+            margin: 20px 0;
+            font-weight: bold;
+            color: #e74c3c;
+        }
+        
+        .quote {
+            font-size: 24px;
+            margin: 20px 0;
+            font-style: italic;
+            color: #2c3e50;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .quote-author {
             font-size: 18px;
-            color: #666;
+            color: #7f8c8d;
+            margin-top: 10px;
         }
         
         @keyframes bounce {
@@ -35,11 +60,30 @@
                 transform: translateY(-20px);
             }
         }
+
+        .suggestion {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: #e8f5e9;
+            border-radius: 8px;
+            font-size: 16px;
+        }
     </style>
 </head>
 <body>
-    <div class="message">LOCK IN!</div>
-    <div class="sub-message">This site is blocked during your productivity hours.</div>
-    <div class="sub-message">Stay focused!</div>
+    <div class="container">
+        <div class="message">LOCK IN!</div>
+        <div class="timer" id="timer"></div>
+        <div class="quote" id="quote"></div>
+        <div class="quote-author" id="author"></div>
+        <div class="suggestion">
+            Why not try:
+            <ul id="suggestions" style="text-align: left;"></ul>
+        </div>
+    </div>
+
+    <script src="block.js">
+
+    </script>
 </body>
 </html>
