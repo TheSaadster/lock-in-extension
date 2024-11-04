@@ -37,3 +37,24 @@ You can customize:
 
 
 ### Stay productive, and Lock In!
+
+## Privacy Policy for Lock In
+
+At **Lock In**, your privacy is important to us. This Privacy Policy outlines how we collect, use, and protect your information when you use our Chrome extension.
+
+### Information We Collect
+
+**Lock In** does not collect any personal information or browsing history from users. The extension operates locally on your device and does not require you to create an account or provide personal data.
+
+### How We Use Your Information
+
+- The extension uses the list of websites you provide to block access during your specified "Lock-In" hours.
+- The extension may send notifications to inform you when you attempt to access a blocked website.
+
+### Data Security
+
+We take data security seriously. Since **Lock In** does not collect personal data, there are no external servers where your information is stored. Your settings and configurations remain on your device.
+
+### Third-Party Services
+
+**Lock In** does not use any third-party services that collect data. The extension is designed to function independently, ensuring your privacy.
